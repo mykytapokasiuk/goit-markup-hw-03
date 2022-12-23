@@ -63,8 +63,9 @@ body {
 
 /**INDEX PAGE STYLES*/
 /*!HEADER*/
-/* .header {
-} */
+.header {
+    padding: 24px 0px 24px 0px;
+}
 /* .header-navigation {
 } */
 .header-logo {
@@ -122,7 +123,6 @@ body {
 /*!BIG BANNER*/
 .big-banner {
     background-color: var(--dark);
-    text-align: center;
 }
 .big-banner-title {
     font-weight: 600;
@@ -130,7 +130,6 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--primary-bg);
-    margin-bottom: 48px;
 }
 .big-banner-btn {
     font-family: inherit;
@@ -143,6 +142,7 @@ body {
     cursor: pointer;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    margin-top: 48px;
 }
 .big-banner-btn:hover,
 .big-banner-btn:focus {
@@ -154,9 +154,10 @@ body {
 }
 
 /*!OUR STRENGTHS*/
-/* .our-strengths {
+.our-strengths {
+    padding-top: 120px;
 }
-.our-strengths-list {
+/* .our-strengths-list {
 } */
 /* .our-strengths-item {
 } */
@@ -170,11 +171,13 @@ body {
 .our-strengths-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 8px;
 }
 
 /*!OUR PROJECTS*/
-/* .our-projects {
-} */
+.our-projects {
+    padding: 120px 0px 120px 0px;
+}
 .our-projects-title,
 .our-team-title {
     font-weight: 600;
@@ -184,17 +187,18 @@ body {
     text-transform: capitalize;
     color: var(--dark);
 }
-/* .our-projects-list {
+.our-projects-list,
+.our-team-list {
+    margin-top: 72px;
 }
-.our-projects-item {
+/* .our-projects-item {
 } */
 
 /*!OUR TEAM*/
 .our-team {
     background-color: var(--light);
+    padding: 120px 0px 120px 0px;
 }
-/* .our-team-list {
-} */
 .our-team-item {
     background-color: var(--primary-bg);
 }
@@ -204,14 +208,17 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
+    margin-top: 32px;
 }
 .teammate-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 8px;
 }
 
 /*!FOOTER*/
 .footer {
+    padding: 100px 0px 100px 0px;
     background-color: var(--dark);
 }
 .footer-logo {
@@ -228,6 +235,7 @@ body {
     color: var(--light);
 }
 .footer-text {
+    margin-top: 16px;
     color: var(--accent);
 }
 /*!----------------------------------------------------------------*/
