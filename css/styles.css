@@ -62,7 +62,6 @@ img {
 .container {
     width: 1158px;
     padding: 0px 15px;
-    outline: 1px solid red;
     margin: 0 auto;
 }
 
@@ -296,7 +295,6 @@ img {
     color: var(--accent);
     max-width: 264px;
     margin-top: 16px;
-    color: var(--accent);
 }
 /*!----------------------------------------------------------------*/
 
@@ -306,9 +304,11 @@ img {
     background-color: var(--primary-bg);
     padding: 96px 0px 120px;
 }
-/* .filter-buttons {
-
-} */
+.filter-buttons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 /* .filter-buttons-item {
 } */
 .filter-btn {
@@ -319,7 +319,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--light);
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--accent);
     border-radius: 4px;
     cursor: pointer;
     padding: 12px 24px;
@@ -345,7 +345,7 @@ img {
     width: calc((100% - 48px) / 3);
 }
 .products-text-container {
-    padding: 32px 0px;
+    padding: 32px 0px 32px 16px;
 }
 .finished-products-title {
     font-weight: 600;
