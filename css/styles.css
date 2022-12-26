@@ -62,6 +62,7 @@ img {
 .container {
     width: 1158px;
     padding: 0px 15px;
+    outline: 1px solid red;
     margin: 0 auto;
 }
 
@@ -80,6 +81,7 @@ img {
     align-items: center;
 }
 .header-logo {
+    width: 115px;
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
@@ -151,9 +153,13 @@ img {
 .big-banner {
     background-color: var(--dark);
     text-align: center;
+    padding: 188px 0px;
 }
 .big-banner-title {
-    font-weight: 600;
+    width: 496px;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -337,7 +343,7 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    padding-top: 72px;
+    margin-top: 72px;
 }
 .finished-products-item {
     background-color: var(--primary-bg);
